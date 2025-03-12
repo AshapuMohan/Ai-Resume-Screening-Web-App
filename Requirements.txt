@@ -1,8 +1,0 @@
-streamlit
-pandas
-sentence-transformers
-PyPDF2
-Pillow
-pytesseract
-numpy
-torch
