@@ -11,6 +11,8 @@ import numpy as np
 
 # Load Sentence Transformer Model
 model = SentenceTransformer('all-MiniLM-L6-v2')
+model.save('model/')  # Saves the model locally
+
 
 # --- Page Configuration --- #
 st.set_page_config(
