@@ -16,7 +16,7 @@ model.save('model/')  # Saves the model locally
 
 # --- Page Configuration --- #
 st.set_page_config(
-    page_title="Mohan🤍 | Resume Screening App",
+    page_title="Mohan👋 | Resume Screening App",
     page_icon="msl.png",
     layout="wide"
 )
