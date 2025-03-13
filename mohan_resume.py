@@ -90,6 +90,20 @@ def rank_resumes(job_description, resumes, file_names):
     return results
 
 # --- Main App --- #
+st.markdown(
+    """
+    <style>
+        .navbar {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 120px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.image("msl.png", width=100) 
 st.title("🔍 AI Resume Screening & Ranking System")
 
 col1, col2 = st.columns(2)
